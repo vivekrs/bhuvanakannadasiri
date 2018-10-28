@@ -2766,6 +2766,14 @@ input, select, textarea {
 
 /* Wrapper */
 
+.fb-wrapper {
+	height: 90vh;
+}
+
+.fb-wrapper .inner {
+	margin: auto;
+}
+
 	.wrapper {
 		padding: 6em 0 4em 0 ;
 	}

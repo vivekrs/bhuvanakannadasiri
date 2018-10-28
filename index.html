@@ -12,16 +12,6 @@
 
 <body class="landing is-preload">
 	<div id="fb-root"></div>
-	<script>
-		(function (d, s, id) {
-			var js, fjs = d.getElementsByTagName(s)[0];
-			if (d.getElementById(id)) return;
-			js = d.createElement(s);
-			js.id = id;
-			js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2&appId=1537857349849960&autoLogAppEvents=1';
-			fjs.parentNode.insertBefore(js, fjs);
-		}(document, 'script', 'facebook-jssdk'));
-	</script>
 
 	<!-- Page Wrapper -->
 	<div id="page-wrapper">
@@ -36,10 +26,9 @@
 						<div id="menu">
 							<ul>
 								<li><a href="index.html">Home</a></li>
-								<li><a href="generic.html">Generic</a></li>
-								<li><a href="elements.html">Elements</a></li>
-								<li><a href="#">Sign Up</a></li>
-								<li><a href="#">Log In</a></li>
+								<li><a href="#MoreInfo">Information</a></li>
+								<li><a href="#Team">Team</a></li>
+								<li><a href="#posts">Posts</a></li>
 							</ul>
 						</div>
 					</li>
@@ -99,47 +88,8 @@
 			</div>
 		</section>
 
-		<!-- Two -->
-		<section id="two" class="wrapper alt style3 fb-wrapper">
-			<div class="inner">
-				<!-- Facebook Plugin -->
-				<div class="fb-page" data-href="https://www.facebook.com/BhuvanaKannadaSiri" data-tabs="timeline" data-small-header="true" data-width="500" data-height="1000"
-				 data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false">
-					<blockquote cite="https://www.facebook.com/BhuvanaKannadaSiri" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/BhuvanaKannadaSiri">Bhuvana
-							Kannada Siri</a></blockquote>
-				</div>
-			</div>
-			<!-- <section class="spotlight">
-				<div class="image"><img src="images/pic01.jpg" alt="" /></div>
-				<div class="content">
-					<h2>Magna primis lobortis<br />
-						sed ullamcorper</h2>
-					<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean
-						mi ligula.</p>
-				</div>
-			</section>
-			<section class="spotlight">
-				<div class="image"><img src="images/pic02.jpg" alt="" /></div>
-				<div class="content">
-					<h2>Tortor dolore feugiat<br />
-						elementum magna</h2>
-					<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean
-						mi ligula.</p>
-				</div>
-			</section>
-			<section class="spotlight">
-				<div class="image"><img src="images/pic03.jpg" alt="" /></div>
-				<div class="content">
-					<h2>Augue eleifend aliquet<br />
-						sed condimentum</h2>
-					<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean
-						mi ligula.</p>
-				</div>
-			</section> -->
-		</section>
-
 		<!-- Three -->
-		<section id="three" class="wrapper style3 special">
+		<section id="MoreInfo" class="wrapper style3 special">
 			<div class="inner">
 				<header class="major">
 					<h2>Accumsan mus tortor nunc aliquet</h2>
@@ -197,6 +147,45 @@
 			</div>
 		</section>
 
+		<!-- Posts -->
+		<section id="posts" class="wrapper alt style3 fb-wrapper">
+			<div class="inner">
+				<!-- Facebook Plugin -->
+				<div class="fb-page" data-href="https://www.facebook.com/BhuvanaKannadaSiri" data-tabs="timeline" data-small-header="true" data-width="500" data-height="1000"
+				 data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false">
+					<blockquote cite="https://www.facebook.com/BhuvanaKannadaSiri" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/BhuvanaKannadaSiri">Bhuvana
+							Kannada Siri</a></blockquote>
+				</div>
+			</div>
+			<!-- <section class="spotlight">
+				<div class="image"><img src="images/pic01.jpg" alt="" /></div>
+				<div class="content">
+					<h2>Magna primis lobortis<br />
+						sed ullamcorper</h2>
+					<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean
+						mi ligula.</p>
+				</div>
+			</section>
+			<section class="spotlight">
+				<div class="image"><img src="images/pic02.jpg" alt="" /></div>
+				<div class="content">
+					<h2>Tortor dolore feugiat<br />
+						elementum magna</h2>
+					<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean
+						mi ligula.</p>
+				</div>
+			</section>
+			<section class="spotlight">
+				<div class="image"><img src="images/pic03.jpg" alt="" /></div>
+				<div class="content">
+					<h2>Augue eleifend aliquet<br />
+						sed condimentum</h2>
+					<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean
+						mi ligula.</p>
+				</div>
+			</section> -->
+		</section>
+
 		<!-- Footer -->
 		<footer id="footer">
 			<ul class="icons">
@@ -226,7 +215,16 @@
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
-
+	<script>
+		(function (d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s);
+			js.id = id;
+			js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2&appId=1537857349849960&autoLogAppEvents=1';
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+	</script>
 </body>
 
 </html>

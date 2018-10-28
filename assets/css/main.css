@@ -2767,11 +2767,12 @@ input, select, textarea {
 /* Wrapper */
 
 .fb-wrapper {
-	height: 90vh;
+	height: 1000px;
 }
 
 .fb-wrapper .inner {
 	margin: auto;
+	text-align: center;
 }
 
 	.wrapper {

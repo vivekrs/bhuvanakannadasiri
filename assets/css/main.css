@@ -102,7 +102,7 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #fff;
+		color: white;
 		font-family: "Open Sans", Helvetica, sans-serif;
 		font-size: 15pt;
 		font-weight: 400;
@@ -145,12 +145,12 @@ input, select, textarea {
 		text-decoration: none;
 	}
 
-		a:hover, .icons a {
+		a:hover, .icons a, a.no-decoration {
 			border-bottom-color: transparent;
 		}
 
 	strong, b {
-		color: #fff;
+		color: white;
 		font-weight: 600;
 	}
 
@@ -163,7 +163,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #fff;
+		color: white;
 		font-weight: 800;
 		letter-spacing: 0.225em;
 		line-height: 1em;
@@ -233,7 +233,7 @@ input, select, textarea {
 
 	hr {
 		border: 0;
-		border-bottom: solid 2px #fff;
+		border-bottom: solid 2px white;
 		margin: 3em 0;
 	}
 
@@ -242,7 +242,7 @@ input, select, textarea {
 		}
 
 	blockquote {
-		border-left: solid 4px #fff;
+		border-left: solid 4px white;
 		font-style: italic;
 		margin: 0 0 2em 0;
 		padding: 0.5em 0 0.5em 2em;
@@ -1779,7 +1779,7 @@ input, select, textarea {
 	}
 
 		header.major h2, header.major h3, header.major h4, header.major h5, header.major h6 {
-			border-bottom: solid 2px #fff;
+			border-bottom: solid 2px white;
 			display: inline-block;
 			padding-bottom: 1em;
 			position: relative;
@@ -1792,7 +1792,7 @@ input, select, textarea {
 			}
 
 		header.major p {
-			color: #fff;
+			color: white;
 			top: 0;
 		}
 
@@ -1819,7 +1819,7 @@ input, select, textarea {
 	}
 
 	label {
-		color: #fff;
+		color: white;
 		display: block;
 		font-size: 0.9em;
 		font-weight: 600;
@@ -1907,7 +1907,7 @@ input, select, textarea {
 		input[type="checkbox"] + label,
 		input[type="radio"] + label {
 			text-decoration: none;
-			color: #fff;
+			color: white;
 			cursor: pointer;
 			display: inline-block;
 			font-size: 1em;
@@ -1945,7 +1945,7 @@ input, select, textarea {
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
 			background: #2e3842;
-			color: #fff;
+			color: white;
 			content: '\f00c';
 		}
 
@@ -1986,7 +1986,7 @@ input, select, textarea {
 
 	.box {
 		border-radius: 3px;
-		border: solid 2px #fff;
+		border: solid 2px white;
 		margin-bottom: 2em;
 		padding: 1.5em;
 	}
@@ -2030,7 +2030,7 @@ input, select, textarea {
 			-ms-transform: rotate(-45deg);
 			transform: rotate(-45deg);
 			border-radius: 3px;
-			border: solid 2px #fff;
+			border: solid 2px white;
 			display: inline-block;
 			font-size: 1.35em;
 			height: calc(3em + 2px);
@@ -2140,7 +2140,7 @@ input, select, textarea {
 		}
 
 			ul.alt li {
-				border-top: solid 1px #fff;
+				border-top: solid 1px white;
 				padding: 0.5em 0;
 			}
 
@@ -2321,7 +2321,7 @@ input, select, textarea {
 	}
 
 		table tbody tr {
-			border: solid 1px #fff;
+			border: solid 1px white;
 			border-left: 0;
 			border-right: 0;
 		}
@@ -2335,7 +2335,7 @@ input, select, textarea {
 		}
 
 		table th {
-			color: #fff;
+			color: white;
 			font-size: 0.9em;
 			font-weight: 600;
 			padding: 0 0.75em 0.75em 0.75em;
@@ -2343,11 +2343,11 @@ input, select, textarea {
 		}
 
 		table thead {
-			border-bottom: solid 2px #fff;
+			border-bottom: solid 2px white;
 		}
 
 		table tfoot {
-			border-top: solid 2px #fff;
+			border-top: solid 2px white;
 		}
 
 		table.alt {
@@ -2355,7 +2355,7 @@ input, select, textarea {
 		}
 
 			table.alt tbody tr td {
-				border: solid 1px #fff;
+				border: solid 1px white;
 				border-left-width: 0;
 				border-top-width: 0;
 			}
@@ -2394,8 +2394,8 @@ input, select, textarea {
 		background-color: transparent;
 		border-radius: 3px;
 		border: 0;
-		box-shadow: inset 0 0 0 2px #fff;
-		color: #fff;
+		box-shadow: inset 0 0 0 2px white;
+		color: white;
 		cursor: pointer;
 		display: inline-block;
 		font-size: 0.8em;
@@ -2468,7 +2468,7 @@ input, select, textarea {
 		.button.primary {
 			background-color: #ed4933;
 			box-shadow: none !important;
-			color: #ffffff !important;
+			color: white !important;
 		}
 
 			input[type="submit"].primary:hover,
@@ -2486,6 +2486,32 @@ input, select, textarea {
 			.button.primary:active {
 				background-color: #eb341c !important;
 			}
+
+			input[type="submit"].secondary,
+			input[type="reset"].secondary,
+			input[type="button"].secondary,
+			button.secondary,
+			.button.secondary {
+				background-color: #edc233;
+				box-shadow: none !important;
+				color: black !important;
+			}
+	
+				input[type="submit"].secondary:hover,
+				input[type="reset"].secondary:hover,
+				input[type="button"].secondary:hover,
+				button.secondary:hover,
+				.button.secondary:hover {
+					background-color: #efc84a !important;
+				}
+	
+				input[type="submit"].secondary:active,
+				input[type="reset"].secondary:active,
+				input[type="button"].secondary:active,
+				button.secondary:active,
+				.button.secondary:active {
+					background-color: #ebc51c !important;
+				}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
 		input[type="reset"].disabled,
@@ -2627,7 +2653,7 @@ input, select, textarea {
 				.features li {
 					padding: 3em 0 1em 0 ;
 					background-color: transparent !important;
-					border-top: solid 2px #fff;
+					border-top: solid 2px white;
 					width: 100%;
 				}
 
@@ -3136,6 +3162,7 @@ input, select, textarea {
 
 		.wrapper.style4 {
 			background-color: transparent;
+			color: white;
 		}
 
 		.wrapper.style5 {
@@ -3500,7 +3527,7 @@ input, select, textarea {
 
 					#header nav > ul > li > a {
 						border: 0;
-						color: #fff;
+						color: white;
 						display: block;
 						font-size: 0.8em;
 						letter-spacing: 0.225em;
@@ -3606,7 +3633,7 @@ input, select, textarea {
 				-webkit-transition-delay: 0.25s;
 				-ms-transition-delay: 0.25s;
 				transition-delay: 0.25s;
-				background: #fff;
+				background: white;
 				content: '';
 				display: block;
 				height: 2px;
@@ -3745,6 +3772,33 @@ input, select, textarea {
 	body.is-preload #banner:after {
 		opacity: 1;
 	}
+
+	/* Person */
+
+.person {
+	display: inline-block;
+	width: 200px;
+	text-align: center;
+	margin: auto 25px;
+	list-style-type: none;
+	white-space: nowrap;
+}
+	
+.person-photo {
+	width: 100%;
+	padding: 1em;
+	border-radius: 150px;
+	border-radius: 50%;
+	-webkit-filter: grayscale(95%);
+	-ms-filter: grayscale(95%);
+	filter: grayscale(95%);
+}
+
+.person-photo:hover {
+	-webkit-filter: grayscale(30%);
+	-ms-filter: grayscale(30%);
+	filter: grayscale(30%);
+}
 
 /* CTA */
 
@@ -3895,7 +3949,7 @@ input, select, textarea {
 			}
 
 				#footer .icons a:hover {
-					color: #fff;
+					color: white;
 				}
 
 		#footer .copyright {
@@ -3926,7 +3980,7 @@ input, select, textarea {
 				}
 
 					#footer .copyright li a:hover {
-						color: #fff;
+						color: white;
 					}
 
 				@media screen and (max-width: 480px) {
